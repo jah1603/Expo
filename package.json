@@ -1,0 +1,26 @@
+{
+  "name": "levels",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run build & node server.js",
+    "build": "webpack -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.10",
+    "require": "^2.4.20",
+    "requirejs": "^2.3.6",
+    "three": "^0.102.1",
+    "webpack": "^4.29.0"
+  }
+}
