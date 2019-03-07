@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run build & node server.js",
-    "build": "webpack & npm i -g webpack-cli -D --save && node server.js"
+    "build": "webpack & npm i -g webpack-cli -D --save"
   },
   "keywords": [],
   "author": "",
